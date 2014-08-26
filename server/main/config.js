@@ -9,7 +9,7 @@ var bodyParser     = require('body-parser'),
     session        = require('express-session'),
     expressJwt     = require('express-jwt');
 
-mongoose.connect(process.env.DB_URL || 'mongodb://fitbuddy:tYH.57HnJw@ds035787.mongolab.com:35787/fitbuddy');
+mongoose.connect(process.env.DB_URL || 'mongodb://FitBuddy:aZ9lZwnBd9ji4KJN6qTs1.VZ2kLS4Obgg22dwd5WgIA-@ds045087.mongolab.com:45087/FitBuddy');
 /*
  * Include all your global env variables here.
 */
