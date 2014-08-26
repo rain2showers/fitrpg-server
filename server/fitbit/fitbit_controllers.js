@@ -15,8 +15,8 @@ var format = require('util').format;
 
 var mongoose = require('mongoose');
 
-var FITBIT_CONSUMER_KEY = 9a713258375e40868ec9b75471f832f2;
-var FITBIT_CONSUMER_SECRET = 91b350df879040548c11622bd5a6336b;
+var FITBIT_CONSUMER_KEY = f62c67b70a09491d99d20a30d631c97d;
+var FITBIT_CONSUMER_SECRET = process.env.FITBIT_CONSUMER_SECRET;
 
 var myClient = new FitbitApiClient(FITBIT_CONSUMER_KEY,FITBIT_CONSUMER_SECRET);
 
