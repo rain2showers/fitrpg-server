@@ -31,6 +31,7 @@ module.exports = exports = {
     function (token, tokenSecret, profile, done) {
       var timestamp = new Date();
       userId = profile.id; //needed to send back with the url to the client to save to local storage
+      console.log(userId);
       process.nextTick(function(){
         User.findByIdQ({_id: profile.id})
           .then(function (foundUser) {
