@@ -26,7 +26,7 @@ module.exports = exports = {
   fitbitStrategy: new FitbitStrategy({
     consumerKey: FITBIT_CONSUMER_KEY,
     consumerSecret: FITBIT_CONSUMER_SECRET,
-    callbackURL: '/fitbit/authcallback'
+    callbackURL: '/authcallback'
     },
     function (token, tokenSecret, profile, done) {
       var timestamp = new Date();
